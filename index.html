@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Letícia - Engenheira de Produção</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-6 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold slide-in">Letícia Cabral Campos</h1>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#sobre" class="hover:text-gray-200 transition duration-300">Sobre</a></li>
+                    <li><a href="#experiencia" class="hover:text-gray-200 transition duration-300">Experiências</a></li>
+                    <li><a href="#formacao" class="hover:text-gray-200 transition duration-300">Formação</a></li>
+                    <li><a href="#cursos" class="hover:text-gray-200 transition duration-300">Cursos</a></li>
+                    <li><a href="#habilidades" class="hover:text-gray-200 transition duration-300">Habilidades</a></li>
+                    <li><a href="#contato" class="hover:text-gray-200 transition duration-300">Contato</a></li>
+                    <li><a download="Letícia Cabral Campos - CV.pdf" href="./assets/documents/Letícia Cabral Campos.pdf" class="hover:text-gray-200 transition duration-300">Baixar CV</a></li>
+                </ul>
+            </nav>
+            <button id="menu-button" class="md:hidden text-white focus:outline-none" aria-label="Menu">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-50">
+        <div class="bg-gray-800 w-80 h-full absolute right-0 p-6">
+            <div class="flex justify-end mb-4">
+                <button id="close-menu-button" class="text-white focus:outline-none" aria-label="Close Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M20 20L4 4m16 0L4 20"/></svg>
+                </button>
+            </div>
+            <nav class="block">
+                <ul class="space-y-4">
+                    <li><a href="#sobre" class="block text-lg text-white hover:text-gray-300 transition duration-300">Sobre</a></li>
+                    <li><a href="#experiencia" class="block text-lg text-white hover:text-gray-300 transition duration-300">Experiências</a></li>
+                    <li><a href="#formacao" class="block text-lg text-white hover:text-gray-300 transition duration-300">Formação</a></li>
+                    <li><a href="#cursos" class="block text-lg text-white hover:text-gray-300">Cursos</a></li>
+                    <li><a href="#habilidades" class="block text-lg text-white hover:text-gray-300">Habilidades</a></li>
+                    <li><a href="#contato" class="block text-lg text-white hover:text-gray-300">Contato</a></li>
+                    <li><a download="Letícia Cabral Campos - CV.pdf" href="./assets/documents/Letícia Cabral Campos.pdf" class="block text-lg text-white hover:text-gray-300">Baixar CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section id="sobre" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <div class="text-center md:text-left slide-in delay-1">
+                <h2 class="text-3xl font-bold text-indigo-600 mb-4">Sobre Mim</h2>
+                <p class="text-gray-700 text-lg">
+                    Engenheira de Produção com sólida experiência nas áreas administrativa, financeira, contábil, fiscal e atualmente educacional.
+                </p>
+                <p class="text-gray-700 text-lg mt-4">
+                    Atuação em empresas de grande porte como MRS Logística, Bahamas S/A e na Universidade Federal de Juiz de Fora (UFJF), no Centro de Políticas Públicas e Avaliação da Educação - CAEd.
+                </p>
+                <p class="text-gray-700 text-lg mt-4">
+                    Entusiasta da otimização de processos, programação e análise de dados.
+                </p>
+            </div>
+            <div class="flex justify-center slide-in delay-1">
+                 <img src="./assets/images/leticia.jpeg" width="400" alt="Letícia" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-indigo-600 text-center mb-8 slide-in">Experiências Profissionais</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Centro de Políticas Públicas e Avaliação da Educação da Universidade Federal de Juiz de Fora - UFJF</h3>
+                    <p class="text-gray-600">Assistência Administrativa e Acadêmica - Desenvolvimento Profissional</p>
+                    <p class="text-gray-400 mb-4">jan 2023 &rarr; atual</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Cargo: Apoio à Coordenação Acadêmica do Mestrado Profissional em Gestão e Avaliação da Educação Pública da UFJF</li>
+                        <li>Administração dos indicadores da CAPES e indicadores internos do Programa de Pós Graduação</li>
+                        <li>Apoio à gestão acadêmica e administrativa dos cursos Strictu Sensu eLatu Sensu</li>
+                        <li>Desenvolvimento, programação e uso de plataformas de ensino e sistemas de avaliação MOODLE</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Bahamas S/A</h3>
+                    <p class="text-gray-600 mb-4">Analista de Inteligência de Mercado</p>
+                    <p class="text-gray-400 mb-4">jun 2021 &rarr; dez 2022</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Analista de Inteligência de Mercado na Coordenação de Contratos e Diretoria Comercial</li>
+                        <li>Auditoria de Contratos</li>
+                        <li>Elaboração, análise e desenvolvimento de Planilhas de controle de produtividade e indicadores (POWER BI, EXCEL, ERP)</li>
+                        <li>Suporte à Gerência e Diretoria Comercial e Diretoria de Inteligência de Mercado</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">MRS Logística</h3>
+                    <p class="text-gray-600 mb-4">Estagiária da Gerência de Contas a Pagar</p>
+                    <p class="text-gray-400 mb-4">jul 2019 &rarr; mai 2021</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Planejamento e controle das obrigações a pagar</li>
+                        <li>Apoio nos indicadores de fluxo de caixa, contas a pagar, tributação, regularização de câmbio, debêntures, importação.</li>
+                        <li>Reposição do fundo fixo de caixa</li>
+                        <li>Relação de stakeholders</li>
+                        <li>Acompanhamento de indicadores de performances e report à Gerência de Feturamento e Tesouraria</li>
+                        <li>Autoria do Projeto Aplicativo - Viabilidade Financeira: Venda de créditos de Carbono</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-indigo-600 text-center mb-8 slide-in">Formação Acadêmica</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Bacharelado em Engenharia de Produção</h3>
+                    <p class="text-gray-400 mb-4">Faculdade Machado Sobrinho (2016-2021)</p>
+                    <p class="text-gray-600 mb-4">Trabalho de Conclusão de Curso em <i>Lean Manufacturing</i></p>
+                </div>                
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Programa de Inovação</h3>
+                    <p class="text-gray-400 mb-4">AVAMEC (180 horas)</p>
+                    <p class="text-gray-600">Formação para Articuladores do Programa de Inovação Educação Conectada, promovido pela Secretaria de Educação Básica no AVAMEC – Ambiente Virtual de Aprendizagem do Ministério da Educação - MEC</p>
+                    <a download="AVAMEC - Formação para Articuladores do Programa de Inovação Educação Conectada.pdf" href="./assets/documents/Documento - Formação do Programa de Inovação Educação Conectada.pdf" class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Ver certificado</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cursos" class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-indigo-600 text-center mb-8 slide-in">Cursos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Bizagi (Modelagem de Processos)</h3>
+                    <p class="text-gray-600 mb-4">Universidade Federal de Viçosa</p>
+                    <a download="Bizagi - Modelagem de Processos.pdf" href="./assets/documents/Modelagem de Processos com o Bizagi.pdf" class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Ver certificado</a>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Microsoft Power BI para Business Intelligence e Data Science</h3>
+                    <p class="text-gray-600 mb-4">Data Science Academy</p>
+                    <p class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Em progresso</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Curso de Fundamentos de Dados e Inteligência Artificial</h3>
+                    <p class="text-gray-600 mb-4">Desenvolve Grupo Boticário</p>
+                    <p class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Em progresso</p>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">White Belt</h3>
+                    <p class="text-gray-600 mb-4">FM2S Educação e Consultaria</p>
+                    <a download="FM2S - White Belt.pdf" href="./assets/documents/CERTIFICADO - WHITE BELT.pdf" class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Ver certificado</a>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Yellow Belt</h3>
+                    <p class="text-gray-600 mb-4">FM2S Educação e Consultaria</p>
+                    <a download="FM2S - Yellow Belt.pdf" href="./assets/documents/CERTIFICADO - YELLOW BELT.pdf" class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Ver certificado</a>
+                </div>
+                <div class="bg-gray-100 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 slide-in delay-2">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Empreendedorismo e Inovação</h3>
+                    <p class="text-gray-600 mb-4">Fundação Bradesco</p>
+                    <a download="Fundação Bradesco - Empreendedorismo e Inovação.pdf" href="./assets/documents/CERTIFICADO - EMPREENDEDORISMO BRADESCO.pdf" class="text-indigo-500 hover:text-indigo-700 transition duration-300 font-semibold">Ver certificado</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-indigo-600 text-center mb-8 slide-in delay-3">Habilidades</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-800 mb-4">Habilidades</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Trabalho em equipe</li>
+                        <li>Liderança</li>
+                        <li>Raciocínio lógico</li>
+                        <li>Pensamento criativo</li>
+                        <li>Resolução de problemas</li>
+                        <li>Análise de dados</li>
+                        <li>Programação</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-semibold text-gray-800 mb-4">Idiomas</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Português - Nativo</li>
+                        <li>Inglês - Instrumental (avançado) / Conversação (intermediário)</li>
+                        <li>Espanhol - Básico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-indigo-600 text-center mb-8 slide-in">Contato</h2>
+            <div class="bg-gray-100 rounded-lg shadow-md p-8">
+                <p class="text-lg text-gray-700 text-center mb-6">
+                    Estou sempre aberta a novas oportunidades e desafios. Entre em contato para conversarmos sobre como posso contribuir para o seu projeto ou organização.
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="mailto:cabralleticia@gmail.com" class="text-indigo-500 hover:text-indigo-700 transition duration-300" aria-label="Email">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/leticiacabralcampos/" target="_blank" rel="noopener noreferrer" class="text-indigo-500 hover:text-indigo-700 transition duration-300" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7s0-6 0-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5532987098405" target="_blank" rel="noopener noreferrer" class="text-indigo-500 hover:text-indigo-700 transition duration-300" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
